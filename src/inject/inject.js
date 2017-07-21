@@ -1,7 +1,5 @@
 chrome.runtime.onMessage.addListener(function (msg, sender, response) {
 	if ((msg.key === 'nomoji')) {
-
-		console.log("is it working?");
 		var elements = document.getElementsByTagName('*');
 		for (var i = 0; i < elements.length; i++) {
 			var element = elements[i];
